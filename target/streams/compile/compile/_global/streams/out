@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/nico/scala-airport-project/src/main/scala/Main.scala:1:7 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m1 |[0m[33mimport[0m fileReader.model.Airport[0m
+[0m[[0m[31merror[0m] [0m[0m  |       [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |       Not found: fileReader[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /home/nico/scala-airport-project/src/main/scala/Main.scala:2:7 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m2 |[0m[33mimport[0m fileReader.service.CSV[0m
+[0m[[0m[31merror[0m] [0m[0m  |       [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m  |       Not found: fileReader[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
