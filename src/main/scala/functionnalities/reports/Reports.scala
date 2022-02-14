@@ -20,6 +20,4 @@ object Reports {
     def highestAirports(utils: Utils) = utils.countries.map(country => CountryAirports(country.name, Query.queryAirportsName(country.name, utils))).sortWith(_.airports.length > _.airports.length).take(10)
 
     def lowestAirports(utils: Utils) = utils.countries.map(country => CountryAirports(country.name, Query.queryAirportsName(country.name, utils))).sortWith(_.airports.length < _.airports.length).take(10)
-
-    
 }

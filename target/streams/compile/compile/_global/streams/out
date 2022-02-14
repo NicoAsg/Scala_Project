@@ -1,6 +1,28 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E100] Syntax Error: /home/nico/scala-airport-project/src/main/scala/Main.scala:13:36 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m      [33mval[0m [36mutils[0m = Utils(AirportUtil.getAirports, CountryUtil.getCountries(), RunwayUtil.getRunways())[0m
-[0m[[0m[31merror[0m] [0m[0m   |                        [31m^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |[33mmethod[0m [35mgetAirports[0m in [33mobject[0m [35mAirportUtil[0m must be called with () argument[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/nico/scala-airport-project/src/main/scala/Main.scala:75:240 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m75 |[0m        Query.queryByCountryName(scala.io.StdIn.readLine(), Utils(AirportUtil.getAirports(), CountryUtil.getCountries(), RunwayUtil.getRunways())).foreach([36melement[0m => println([31m"Airport: "[0m + element.airport.name + [31m"\nRunways ids:\n"[0m + element.runway.foreach([36melement[0m => println(element.id))))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                                                                                                                                                                                        [31m^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |value runway is not a member of functionnalities.query.QueryResult - did you mean element.runways?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/nico/scala-airport-project/src/main/scala/Main.scala:81:240 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m81 |[0m        Query.queryByCountryCode(scala.io.StdIn.readLine(), Utils(AirportUtil.getAirports(), CountryUtil.getCountries(), RunwayUtil.getRunways())).foreach([36melement[0m => println([31m"Airport: "[0m + element.airport.name + [31m"\nRunways ids:\n"[0m + element.runway.foreach([36melement[0m => println(element.id))))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                                                                                                                                                                                                                        [31m^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |value runway is not a member of functionnalities.query.QueryResult - did you mean element.runways?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/nico/scala-airport-project/src/main/scala/Main.scala:108:162 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m108 |[0m        Reports.highestAirports(Utils(AirportUtil.getAirports(), CountryUtil.getCountries(), RunwayUtil.getRunways())).foreach([36melement[0m => println(element.country.name + [31m": "[0m + element.airports.length + [31m" airports"[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                                                                                                                                  [31m^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |value name is not a member of String, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |The following import might fix the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |  import io.Codec.string2codec[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /home/nico/scala-airport-project/src/main/scala/Main.scala:111:161 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m111 |[0m        Reports.lowestAirports(Utils(AirportUtil.getAirports(), CountryUtil.getCountries(), RunwayUtil.getRunways())).foreach([36melement[0m => println(element.country.name + [31m": "[0m + element.airports.length + [31m" airports"[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                                                                                                                                 [31m^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |value name is not a member of String, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |The following import might fix the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |  import io.Codec.string2codec[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
